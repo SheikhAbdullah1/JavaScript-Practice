@@ -1,0 +1,59 @@
+body{
+    background: linear-gradient(rgb(95, 157, 178),rgb(85, 61, 43));
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    height: 100vh;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12rem;
+    width: 90%;
+    margin-left: 40px;
+}
+
+h2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(48, 165, 205);
+    padding-left: 15rem;
+    padding-right: 15rem;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    font-size: 2.5rem;
+}
+
+#date {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(20, 150, 194);
+    font-weight: bold;
+    font-size: 2rem;
+    width: 90%;
+    padding-left: 3rem;
+    padding-right: 5rem;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: rgb(20, 150, 194);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(15, 120, 160);
+}

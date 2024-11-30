@@ -1,0 +1,54 @@
+.div1{
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 50px;
+    height: 100%;
+}
+.div2{
+    width: 49%;
+    height: 100%;
+    /* border: 2px solid black; */
+    /* padding: 50p/x; */
+    float: right;
+    position: relative;
+    bottom: 600px;
+}
+button {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: lightseagreen;
+    background-color: black;
+    text-transform: capitalize;
+    text-decoration: solid;
+    font-weight: 600;
+    border-radius: 10%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: lightseagreen;
+    color: black;
+    border-radius: 0;
+    text-decoration: underline;
+}
+
+.todo {
+    width: 100%;
+    position: relative;
+}
+
+.todo input {
+    border-radius: 5%;
+    position: relative;
+    top: -5px;
+    width: 250px;
+    height: 30px;
+    display: block;
+}
+
+.todo button {
+    display: inline-block;
+}
